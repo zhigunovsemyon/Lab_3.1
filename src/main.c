@@ -2,12 +2,9 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <locale.h>
 
-int main()
+int main(void)
 {
-	setlocale(LC_ALL, "Russian"); //Необходимо для отображения кириллицы
-
 	const double width = 0.8;	//Ширина полотна
 	double x, size;				//Переменные длинны и размера ткани
 	double b, per1sq;			//Переменные общей стоимости и стоимости за кв. метр
